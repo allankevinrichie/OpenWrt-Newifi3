@@ -1,3 +1,5 @@
+![Build OpenWrt](https://github.com/allankevinrichie/OpenWrt-Newifi3/workflows/Build%20OpenWrt/badge.svg)
+
 # Actions-Lean-OpenWrt
 
 - `master`是[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)编译.
