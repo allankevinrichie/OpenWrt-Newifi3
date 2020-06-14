@@ -29,6 +29,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
+  CREATE_GITHUB_RELEASE: true
   TZ: Asia/Shanghai
 
 jobs:
