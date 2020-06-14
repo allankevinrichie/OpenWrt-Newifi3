@@ -10,6 +10,7 @@ name: Typical Build
 
 on:
   repository_dispatch:
+    types: [lede-upstream-updated]
   release:
     types: published
   push:
