@@ -161,7 +161,7 @@ jobs:
     - name: Archive for Releases
       if: steps.organize.outputs.status == 'success' && env.CREATE_GITHUB_RELEASE == 'true' && !cancelled()
       run: |
-        zip -vr release.zip ${FIRMWARE}
+        zip -vrj release.zip ${FIRMWARE}/*
         
     - name: Create Release
       if: steps.organize.outputs.status == 'success' && env.CREATE_GITHUB_RELEASE == 'true' && !cancelled()
@@ -171,7 +171,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        release_name: Release${{ env.FILE_DATE }}
         draft: false
         prerelease: false
         
