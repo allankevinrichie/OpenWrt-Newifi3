@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: Typical Build
 
 on:
   repository_dispatch:
@@ -16,7 +16,7 @@ on:
 #     branches:
 #       - master
     paths:
-      - 'newifi3.config'
+      - 'newifi3-typical.config'
 #   schedule:
 #      - cron: 0 8 * * 5
   watch:
