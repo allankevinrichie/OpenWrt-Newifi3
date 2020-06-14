@@ -11,7 +11,7 @@ name: Typical Build
 on:
   repository_dispatch:
     types: [minimum-build-success]
-  push:
+#   push:
 #     branches:
 #       - master
 #     paths:
