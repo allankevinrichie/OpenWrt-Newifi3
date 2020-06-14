@@ -1,20 +1,24 @@
+# OpenWrt-Newifi3 Frameware Auto-build Repo Powered by GitHub Actions
+
+## Build Status
+
 ![Minimum Build](https://github.com/allankevinrichie/OpenWrt-Newifi3/workflows/Minimum%20Build/badge.svg)
 ![Typical Build](https://github.com/allankevinrichie/OpenWrt-Newifi3/workflows/Typical%20Build/badge.svg)
 
-# OpenWrt-Newifi3 Frameware Auto-build Repo Powered by GitHub Actions
+## Upstream
 
 - Template from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - Source code from [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 
-# Configuration
+## Configuration
 
 Avaliable actions: Minimum, Typical
 
-## Minimum
+### Minimum
 
 - LUCI -> luci-app-ssr-plus(*)
 
-## Typical
+### Typical
 
 - Base System -> IPv6 Support
 
