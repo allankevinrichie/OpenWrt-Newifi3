@@ -13,8 +13,8 @@ on:
   release:
     types: published
   push:
-    branches:
-      - master
+#     branches:
+#       - master
     paths:
       - 'newifi3-minimum.config'
 #   schedule:
