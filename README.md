@@ -1,4 +1,4 @@
-![Build OpenWrt](https://github.com/allankevinrichie/OpenWrt-Newifi3/workflows/Build%20OpenWrt/badge.svg)
+![Minimum Build](https://github.com/allankevinrichie/OpenWrt-Newifi3/workflows/Minimum%20Build/badge.svg)
 
 # Actions-Lean-OpenWrt
 
